@@ -6,7 +6,7 @@ metadata:
     app: mywebsite_git_repo
     tier: frontend
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       name: myapp-pod
