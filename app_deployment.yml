@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   name: myapp-deployment
   labels:
-    app: mywebsite
+    app: mywebsite_git_repo
     tier: frontend
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       name: myapp-pod
